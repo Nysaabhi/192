@@ -123,9 +123,9 @@ body {
 .message {
     font-family: 'Poppins';
     display: flex;
-    gap: 10px;
+    gap: 80px;
     max-width: 95%;
-    margin-bottom: 0px;
+    margin-bottom: 16px;
     animation: messageSlide 0.3s ease-out;
 }
 
@@ -158,7 +158,6 @@ body {
 }
 
 .welcome-content {
-   height: 100%;
    background: rgba(255, 255, 255, 0.05); 
    padding: 12px 16px;
     border-radius: 16px;
