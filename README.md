@@ -16761,7 +16761,7 @@ function openChatModal(contactId) {
 
   document.body.appendChild(modal);
 }
-
+ 
 // Initialize the chat interface
 createChatInterface();
 
