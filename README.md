@@ -157,25 +157,39 @@ body {
     border-radius: 16px;
 }
 
-.welcome-content {
-   background: rgba(255, 255, 255, 0.05); 
-   padding: 12px;
-    border-radius: 16px;
-    color: var(--text-light); 
+.welcome-message {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
 }
 
-.welcome-avatar { 
-     width: 36px;
-    height: 36px;
-    min-width: 36px;
-    min-height: 36px;
-    background: rgba(255, 215, 0, 0.1);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--primary-color);
-    flex-shrink: 0;
+.welcome-avatar {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  background: rgba(255, 215, 0, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  flex-shrink: 0;
+}
+
+.welcome-content {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 12px 16px;
+  border-radius: 0 16px 16px 16px;
+  color: var(--text-light);
+  max-width: 80%;
+}
+
+.welcome-content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 /* Animation for welcome message */
