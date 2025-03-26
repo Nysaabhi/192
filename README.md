@@ -125,7 +125,7 @@ body {
     display: flex;
     gap: 10px;
     max-width: 95%;
-    margin-bottom: 16px;
+    margin-bottom: 0px;
     animation: messageSlide 0.3s ease-out;
 }
 
@@ -158,6 +158,7 @@ body {
 }
 
 .welcome-content {
+   height: 100%;
    background: rgba(255, 255, 255, 0.05); 
    padding: 12px 16px;
     border-radius: 16px;
@@ -186,7 +187,6 @@ body {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .welcome-message {
-        height: 13%; 
         max-width: 90%;
     }
 }
@@ -594,13 +594,13 @@ body > h1:first-of-type:not(.heading) {
       
       .about-content { 
           line-height: 1.6; 
-          color: #ccccc; 
+          color: #cccccc; 
       }
       
       .menu-close-button { 
           background: none; 
           border: none; 
-          font-size: 1.2rem; 
+          font-size: 1.5rem; 
           cursor: pointer; 
           color: #FFD700; 
           padding: 5px; 
@@ -7168,8 +7168,7 @@ style.textContent = `
 
     .message {
     display: flex; 
-    gap: 10px;
-    height: 8%; 
+    gap: 10px; 
     max-width: 100%; 
     margin-bottom: 16px; 
     animation: messageSlide 0.3s ease-out; 
@@ -7209,20 +7208,6 @@ style.textContent = `
    from { opacity: 1; }
    to { opacity: 0; transform: translateY(-20px); }
    }
-
-
-   @media (max-width: 480px) {
-    .message {
-    display: flex; 
-    gap: 10px;
-    height: 13%; 
-    max-width: 100%; 
-    margin-bottom: 16px; 
-    animation: messageSlide 0.3s ease-out; 
-    }
-}
-
-
 
     .menu-close-button {
         position: absolute;
