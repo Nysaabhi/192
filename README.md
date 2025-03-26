@@ -186,7 +186,7 @@ body {
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .welcome-message {
-        height: 8%; 
+        height: 13%; 
         max-width: 90%;
     }
 }
@@ -16761,7 +16761,7 @@ function openChatModal(contactId) {
 
   document.body.appendChild(modal);
 }
- 
+
 // Initialize the chat interface
 createChatInterface();
 
