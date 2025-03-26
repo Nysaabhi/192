@@ -181,7 +181,7 @@ body {
 .welcome-content {
   background: rgba(255, 255, 255, 0.05);
   padding: 12px 16px;
-  border-radius: 0 16px 16px 16px;
+  border-radius: 16px 16px 16px 16px;
   color: var(--text-light);
   max-width: 80%;
 }
