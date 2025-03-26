@@ -124,6 +124,7 @@ body {
     font-family: 'Poppins';
     display: flex;
     gap: 10px;
+    height: 8%; 
     max-width: 95%;
     margin-bottom: 16px;
     animation: messageSlide 0.3s ease-out;
